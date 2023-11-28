@@ -1,1 +1,184 @@
-/* место для вашего кода */
+.header {
+    width: 100%;
+    padding: 92px 49px 92px 51px;
+}
+
+.header__container {
+    display: flex;
+    width: 100%;
+    max-width: 1340px;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.header__links-list {
+    display: flex;
+    gap: 26px;
+    align-items: center;
+}
+
+.header__links-list-item {
+    list-style: circle;
+    padding-left: 3px;
+}
+
+.header__link {
+    color: #000;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header__links-list-item_no-bullit {
+    list-style: none;
+    padding-left: 0;
+}
+
+.header__links-list-item_no-bullit > a {
+    text-decoration: none;
+}
+
+.header__logo {
+    width: 148px;
+    height: 105px;
+    margin-right: 100px;
+}
+
+.header__contacts-lists {
+    max-width: 240px;
+}
+
+.header__contacts-lists-item {
+    list-style: none;
+}
+
+.header__phone, .header__email  {
+    color: #000;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.3px; 
+    text-decoration: none;
+    border-bottom: 1.5px solid;
+}
+
+.header__address {
+    color: #000;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.3px;
+}
+
+.cover {
+    min-height: 757px;
+    background-image: url(../images/cover.jpg);
+    background-repeat: no-repeat;
+    padding: 0;
+    position: relative;
+    background-size: 100%;
+}
+
+.overlay {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 757px;
+    opacity: 0.6;
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+
+.cover__title {
+    color: #FFF;
+    font-family: Raleway, sans-serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115%;
+    letter-spacing: 30px;
+    text-transform: uppercase;  
+    padding-top: 165px;
+    z-index: 1;
+    position: relative;
+    max-width: 1340px;
+    margin: auto;
+}
+
+.aligned-text {
+    display: block;
+    
+}
+
+.aligned-text_center {
+    display: block;
+    text-align: center;
+}
+
+.aligned-text_right {
+    display: block;
+    text-align: right;
+}
+
+.cover__space-one {
+    margin-left: 25px;
+}
+
+.cover__space-two {
+    margin-left: 25px;
+}
+
+.cover__space-three {
+    margin-right: 25px;
+}
+
+.no-letter-spacing {
+    letter-spacing: 0;
+}
+
+.cover__description {
+    display: grid;
+    grid-template-columns: auto 257px;
+    padding-top: 147px;
+    position: relative;
+    z-index: 1;
+    column-gap: 78px;
+    max-width: 1340px;
+    margin: auto;
+}
+
+.cover__description-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    text-transform: uppercase;
+    justify-self: end;
+    align-self: center;
+}
+
+.bet-button {
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 1px solid #FFF;
+    width: 257px;
+    height: 52px;
+}
