@@ -122,7 +122,7 @@
 }
 
 .cover__space-one {
-    margin-left: 25px;
+    margin-left: 30px;
 }
 
 .cover__space-two {
@@ -130,7 +130,7 @@
 }
 
 .cover__space-three {
-    margin-right: 25px;
+    margin-right: 30px;
 }
 
 .no-letter-spacing {
@@ -160,7 +160,7 @@
     text-transform: uppercase;
     justify-self: end;
     align-self: center;
-    word-spacing: 15px;
+    word-spacing: 18px;
 }
 
 .bet-button {
@@ -193,7 +193,7 @@
     text-transform: uppercase;
     max-width: 1440px;
     margin: auto;
-    padding-left: 89px;
+    padding-left: 80px;
     padding-bottom: 27px;
 }
 
@@ -225,15 +225,18 @@
 }
 
 .card_type_film {
-    background-image: url(/images/card-lot-01.jpg);
+    background-image: url(/images/card-lot-01.jpg) no-repeat;
+    background-size: contain;
 }
 
 .card_type_book {
-    background-image: url(/images/card-lot-02.jpg);
+    background-image: url(/images/card-lot-02.jpg) no-repeat;
+    background-size: contain;
 }
 
 .card_type_picture {
-    background-image: url(/images/card-lot-03.jpg);
+    background-image: url(/images/card-lot-03.jpg) no-repeat;
+    background-size: contain;
 }
 
 .card-title {
