@@ -14,7 +14,7 @@
 
 .header__links-list {
     display: flex;
-    gap: 26px;
+    gap: 29px;
     align-items: center;
 }
 
@@ -44,7 +44,7 @@
 .header__logo {
     width: 148px;
     height: 105px;
-    margin-right: 100px;
+    margin-right: 147px;
 }
 
 .header__contacts-lists {
@@ -193,7 +193,7 @@
     text-transform: uppercase;
     max-width: 1440px;
     margin: auto;
-    padding-left: 80px;
+    padding-left: 89px;
     padding-bottom: 27px;
 }
 
