@@ -225,17 +225,17 @@
 }
 
 .card_type_film {
-    background-image: url(/images/card-lot-01.jpg) no-repeat;
+    background: url(/images/card-lot-01.jpg) no-repeat;
     background-size: contain;
 }
 
 .card_type_book {
-    background-image: url(/images/card-lot-02.jpg) no-repeat;
+    background: url(/images/card-lot-02.jpg) no-repeat;
     background-size: contain;
 }
 
 .card_type_picture {
-    background-image: url(/images/card-lot-03.jpg) no-repeat;
+    background: url(/images/card-lot-03.jpg) no-repeat;
     background-size: contain;
 }
 
